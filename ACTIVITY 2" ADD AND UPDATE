@@ -1,0 +1,12 @@
+# ACTIVITY 2: ADD AND UPDATE
+# Task:
+# Add "grade": 95
+# Change age to 21
+
+student = {"name": "Ana", "age": 20}
+
+student["grade"] = 95
+print(student)
+
+student["age"] = 21
+print(student)
