@@ -1,0 +1,10 @@
+# ACTIVITY 3: LOOP THROUGH DICTIONARY
+#  Task: Print all keys and values
+
+car = {"brand": "Toyota", "model": "Corolla", "year": 2020}
+for key, value in car.items():
+    print(key, ":", value)
+# The ouput will be
+# brand: Toyota
+# model: Corolla
+# year: 2020
