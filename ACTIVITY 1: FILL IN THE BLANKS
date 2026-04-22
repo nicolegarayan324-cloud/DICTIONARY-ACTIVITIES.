@@ -1,0 +1,9 @@
+# ACTIVITY 1: FILL IN THE BLANKS 
+# print(student["_____"])   # Should print Ana
+
+student = {
+   "name": "Ana",
+   "age": 20,
+   "course": "IT"
+}
+print(student["name"])
