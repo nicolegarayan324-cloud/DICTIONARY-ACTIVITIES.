@@ -1,0 +1,14 @@
+# ACTIVITY 4: MINI PHONEBOOK
+# Create a dictionary of 3 people and their phone numbers, then:
+# Ask user for a name
+# Print the number
+
+phonebook = {
+    "Ana": "09123456789",
+    "John": "09987654321",
+    "Mark": "09111222333"
+}
+
+name = input("Enter a name: ")
+
+print("Phone number:", phonebook[name])
